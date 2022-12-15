@@ -3,7 +3,11 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
-/* PRINCIPAL CARD */
+.inactive{
+    display: none;
+}
+
+/* DESKTOP SATATE */
 
 .main-content{
     display: grid;
@@ -25,6 +29,7 @@ body{
 
 .card-content p{
     color: #717783;
+    font-size: 15px;
 }
 
 .icon-star-content{
@@ -85,6 +90,7 @@ body{
 /* THANK YOU VIEW */
 
 .submited-state{
+    display: none;
     display: grid;
     place-items: center;
     color: white;
@@ -96,12 +102,13 @@ body{
 }
 
 .thankYou-icon p{
-    display: grid;
-    place-items: center;
-    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
     color:#fc7613;
     background-color: #262d37;
-    height: 20px;
+    height: 26px;
     border-radius: 10px;
 }
 
