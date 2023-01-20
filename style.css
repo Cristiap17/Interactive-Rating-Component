@@ -68,8 +68,8 @@ body{
 }
 
 .ratio-content kbd:hover{
-    background-color: white;
-    color: #fc7613;
+    background-color: white !important;
+    color: #fc7613 !important;
 }
 
 .submit-button{
